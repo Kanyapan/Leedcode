@@ -1,1 +1,17 @@
-
+/*public boolean isPalindrome(int x) {
+        String txt=x+"";
+        boolean ans = false;
+        
+        for(int i=0;i<txt.length();i++){
+            int ending= txt.length()-i-1;
+        String starttxt=txt.charAt(i)+"";
+        String endtxt=txt.charAt(ending)+"";
+            if(starttxt.equals(endtxt)){
+                ans=true;
+            }
+            else{
+                ans = false;
+                i=txt.length();
+            }
+        }
+        return ans;
